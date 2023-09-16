@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  input,
+  select {
+    @apply w-full p-3 border-2 rounded-lg focus:outline-none shadow;
+  }
+
+  button {
+    @apply w-full p-3 bg-emerald-500 hover:bg-emerald-700 text-white shadow rounded-lg;
+  }
+}
